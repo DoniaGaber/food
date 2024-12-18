@@ -1,0 +1,382 @@
+nav{
+    background: #00000091 ;
+    display: inline-block;
+    color: white;
+/*    border: 1px solid;*/
+    height: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    width: 100%;
+    
+}
+.navba{
+/*    position: fixed;*/
+}
+.logo{
+    display:inline-block;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.search{
+    height: 40px;
+    width: 140px;
+    border: 1px solid black;
+/*    padding-top: 30px;*/
+/*    position: relative;*/
+}
+.search2{
+    height: 30px;
+}
+.headpage{
+    background-image: url(background.jpg);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    
+    
+
+}
+.donia{
+    font-size: 50px;
+    color: #ffeb3b;
+    
+}
+.headerparag{
+    font-size: 20px;
+    color: #c6bcbc;
+}
+.aboutus{
+    color: #282826fa;
+    width: 110px;
+    height: 37px;
+    background: gray;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 19px;
+}
+.aboutus:hover{
+    background-color: black;
+    color: aliceblue
+    
+}
+.contactus{
+    color: #282826fa;
+    width: 110px;
+    height: 37px;
+    background: gray;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 19px;
+    
+}
+.captin{
+    font-family:monospace;
+    font-size: 55px;
+}
+.contactus:hover{
+    background-color: black;
+    color: aliceblue
+}
+.boxes{
+/*
+    border: 1px solid black;
+    width: 1200px;
+    margin: 20px 60px 60p 60px;
+*/
+/*    background: gray;*/
+}
+
+.box1{
+    border: 1px solid black;
+    display: inline-block;
+    width: 380px;
+    height:565px;
+    margin: 3px;
+    font-family: cursive;
+}
+.img1{
+    width: 379px;
+    height: 226px;
+}
+.readmore{
+    width: 87px;
+    height: 30px;
+}
+.table{
+    border: 1px solid gray;
+    width: 1100px;
+    text-align: center;
+    height: 300px;
+    font-family: cursive;
+    font-size: 20px;
+}
+.row1{
+    background: gray;
+    color: aliceblue;
+}
+.row2{
+/*    background-color: burlywood;*/
+}
+.famous{
+    font-family: cursive;
+    font-size: 40px;
+    cursor:default
+}
+.discraption{
+    border: 1px solid black;
+    width: 1100px;
+}
+.discraption1{
+        border: 1px solid gray;
+        width: 1100px;
+}
+.first{
+    text-align: left;
+    font-family: fantasy;
+    font-size: 25px;
+    padding-left: 20px;
+}
+.second{
+    font-size: 25px;
+}
+.discraption1:hover{
+    color: wheat;
+    background-color: gray;
+}
+.contactend{
+    font-family: cursive;
+    font-size: 40px;
+}
+/*mail==>label*/
+.mail{
+    font-family: cursive;
+    font-size: 25px; 
+}
+/*email==>input*/
+.email{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 520px;
+    height: 30px; 
+}
+/*pass==>label*/
+
+.pass{
+    font-family: cursive;
+    font-size: 25px; 
+}
+/*password==>input*/
+.password{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 500px;
+    height: 30px; 
+}
+/*add==>label*/
+
+.add{
+    font-family: cursive;
+    font-size: 25px; 
+}
+/*address==>input*/
+.address{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 500px;
+    height: 30px; 
+}
+/*ci==>label*/
+
+.ci{
+    font-family: cursive;
+    font-size: 25px; 
+}
+/*city==>input*/
+.city{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 500px;
+    height: 30px; 
+}
+.st{
+    font-family: cursive;
+    font-size: 25px; 
+}
+/*city==>input*/
+.state{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 500px;
+    height: 30px; 
+}
+.check{
+
+    float: left;
+    padding-left: 450px;
+}
+.checkbox{
+    font-family: cursive;
+    font-size: 25px
+}
+.button{
+    width: 120px;
+    height: 40px;
+    font-family: cursive;
+    font-size: 20px
+        
+}
+footer{
+    background-color: gray;
+    color: beige;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.mail{
+    display: inline;
+}
+.email{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 390px;
+    height: 30px;
+}.pass{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 390px;
+    height: 30px; 
+    display: block;
+}
+.passt{
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+}
+.emailt{
+    font-family: cursive;
+    font-size: 20px;
+    text-align: left;
+    float: left;
+    padding-left: 300px;
+    
+    
+}
+.pas{
+    display: inline;
+    text-align: center;
+    float: right;
+}
+*/
+/*
+.add{
+     font-family: cursive;
+    font-size: 20px;
+    display: block;
+}
+.addr{
+      border: 1px solid gray;
+    border-radius: 10px;
+    width: 780px;
+    height: 30px; 
+    
+}
+.city{
+    font-family: cursive;
+    font-size: 20px;
+    display: block;
+    
+}
+.cit{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 780px;
+    height: 30px;
+}
+.sta{
+    font-family: cursive;
+    font-size: 20px;
+    display: block;
+    
+}
+.stat{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+*/
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
